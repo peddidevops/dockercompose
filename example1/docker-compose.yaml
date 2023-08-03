@@ -1,0 +1,10 @@
+version: '3'
+services:
+  one:
+    build:
+      context: ./one
+    image: image-one
+  two:
+    build:
+      context: ./two
+    image: image-two
